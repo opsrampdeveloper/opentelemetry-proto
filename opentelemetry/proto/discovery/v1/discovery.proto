@@ -23,8 +23,8 @@ option csharp_namespace = "OpenTelemetry.Proto.Discovery.V1";
 option java_multiple_files = true;
 option java_package = "io.opentelemetry.proto.discovery.v1";
 option java_outer_classname = "DiscoveryProto";
-//option go_package = "go.opentelemetry.io/proto/otlp/discovery/v1";
-option go_package = "discovery/v1";
+option go_package = "go.opentelemetry.io/proto/otlp/discovery/v1";
+//option go_package = "discovery/v1";
 // LogsData represents the logs data that can be stored in a persistent storage,
 // OR can be embedded by other protocols that transfer OTLP logs data but do not
 // implement the OTLP protocol.

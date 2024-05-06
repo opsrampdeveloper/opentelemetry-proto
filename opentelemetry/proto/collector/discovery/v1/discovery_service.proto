@@ -22,8 +22,8 @@ option csharp_namespace = "OpenTelemetry.Proto.Collector.Discovery.V1";
 option java_multiple_files = true;
 option java_package = "io.opentelemetry.proto.collector.discovery.v1";
 option java_outer_classname = "DiscoveryServiceProto";
-//option go_package = "go.opentelemetry.io/proto/otlp/collector/discovery/v1";
-option go_package = "discovery/v1";
+option go_package = "go.opentelemetry.io/proto/otlp/collector/discovery/v1";
+//option go_package = "discovery/v1";
 
 
 // Service that can be used to push Discovery between one Application instrumented with
